@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+    <nav>
+      <ul>
+	<li><a href="#top">About</a><li>
+        <li><a href="#prog">Programs</a></li>
+        <li><a href="#Cuvi">Curriculum Vitae</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="top">
+     <div class="section-inner">
+      <h1>Welcome!</h1>
+      <p>Welcome to my Website for COMP4036!</p>
+	</div>
+      </section>
+    <section id="prog">
+      <div class="section-inner">
+        <h2>Programs</h2>
+        <h3>Javascript Programs</h3>
+
+	 <button id="h/t" type="button">Heads or Tails?</button>
+	  <p><span id="result"></span></p>
+ 
+	 <button id="rand" type="button">Get a random number 1 through 10!</button>
+	  <p id="value"></p>
+ 
+ 
+ 
+         <form id="askyear">
+   	  <label for="year">Enter your birth year</label>
+   	  <input type="number" id="year">
+  	  <input type="button" onclick="showgen()" value="Find your generation!">
+  	  <p><span id="gen"></span></p>
+	 </form>
+	
+	<h3>PHP Programs</h3>
+	<a href="progs.php">
+	<form method="post">
+    	<input type="submit" name="data" value="Heads or Tails?"/>
+  	</form>
+	</a>
+	
+	<form method="post">
+    	<input type="submit" name="num" value="Get a random number 1 through 10!"/>
+  	</form>
+	</a>
+	
+	<form method="post">
+        <input type="number" name="byear" placeholder="Enter your birth year" required>
+        <input type="submit" value="Find your generation!">
+   	</form>
+
+
+
+      </div>
+    </section>
+    <section id="Cuvi">
+      <div class="section-inner">
+        <h2>Curriculum Vitae</h2>
+        <a href="cv.html">
+	<button><span>Curriculum Vitae</span></button>
+	</a>
+      </div>
+    </section>
+      
+  </main>
+      
+      <script src="prog.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+body{
+  margin:0;
+  margin-top: 50px;
+  font-family: Times New Roman;
+}
+header{
+  position: fixed;
+  display:flex;
+  top:0;
+  right:0;
+  left:0;
+  height:50px;
+  line-height:50px;
+  background-color: #000000;
+}
+header a{
+  text-decoration: none;
+  color:white;
+}
+header *{
+  display: inline;
+  height:50px;
+}
+header ul{
+  padding: 0;
+}
+header li{
+  margin-left:20px;
+}
+
+
+section{
+  color:white;
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  text-align: center;
+
+  background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    min-height:100%
+
+}
+
+#top h1{
+  font-size:6em;
+}
+
+section h2{
+  font-size:3em;
+}
+
+section h3{
+  font-size:1.5em;
+}
+
+#top {
+    background-image:  linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.3)),  url('nsky.jpg');
+}
+
+#prog {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.4)), url('nsky.jpg');
+}
+
+#Cuvi {
+    background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.5)), url('nsky.jpg');
+}
